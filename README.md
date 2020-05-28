@@ -4,6 +4,9 @@
 - run the app with `npm start`
 - on the browser, goes to `http://localhost:3000/`
 
+About bit.dev
+- Please confg your registry with  `npm config set @bit:registry https://node.bit.dev/`
+
 ------
 The data in the data.json file represent the data point to be plotted on a line graph.
 
