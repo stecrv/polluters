@@ -1,14 +1,55 @@
 {
-  "name": "pollution",
+  "name": "cloudacademy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/mui-org.material-ui-icons.expand-more": "^3.9.2",
+    "@bit/mui-org.material-ui.avatar": "^4.9.10",
+    "@bit/mui-org.material-ui.button": "^4.9.10",
+    "@bit/mui-org.material-ui.card": "^4.9.10",
+    "@bit/mui-org.material-ui.divider": "^4.9.10",
+    "@bit/mui-org.material-ui.expansion-panel": "^4.9.10",
+    "@bit/mui-org.material-ui.expansion-panel-details": "^4.9.10",
+    "@bit/mui-org.material-ui.expansion-panel-summary": "^4.9.10",
+    "@bit/mui-org.material-ui.fade": "^4.9.10",
+    "@bit/mui-org.material-ui.form-control-label": "^4.9.10",
+    "@bit/mui-org.material-ui.list": "^4.9.10",
+    "@bit/mui-org.material-ui.list-item": "^4.9.10",
+    "@bit/mui-org.material-ui.list-item-avatar": "^4.9.10",
+    "@bit/mui-org.material-ui.list-item-icon": "^4.9.10",
+    "@bit/mui-org.material-ui.list-item-text": "^4.9.10",
+    "@bit/mui-org.material-ui.paper": "^4.9.10",
+    "@bit/mui-org.material-ui.popover": "^4.9.10",
+    "@bit/mui-org.material-ui.styles": "^4.9.10",
+    "@bit/mui-org.material-ui.svg-icon": "^4.9.10",
+    "@bit/mui-org.material-ui.switch": "^4.9.10",
+    "@bit/mui-org.material-ui.typography": "^4.9.10",
+    "@bit/recharts.recharts.area": "^1.6.2",
+    "@bit/recharts.recharts.bar": "^1.6.2",
+    "@bit/recharts.recharts.cartesian-grid": "^1.6.2",
+    "@bit/recharts.recharts.composed-chart": "^1.6.2",
+    "@bit/recharts.recharts.legend": "^1.6.2",
+    "@bit/recharts.recharts.line": "^1.6.2",
+    "@bit/recharts.recharts.responsive-container": "^1.6.2",
+    "@bit/recharts.recharts.text": "^1.6.2",
+    "@bit/recharts.recharts.tooltip": "^1.6.2",
+    "@bit/recharts.recharts.x-axis": "^1.6.2",
+    "@bit/recharts.recharts.y-axis": "^1.6.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "loadash": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.0",
+    "typeface-roboto": "0.0.75"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0",
+    "styles-components": ">=4.0.0",
+    "@storybook/react": ">=5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,9 +67,17 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
+      "last 2 chrome version",
+      "last 2 firefox version",
       "last 1 safari version"
     ]
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.3.18"
   }
 }
